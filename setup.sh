@@ -36,7 +36,8 @@ echo "--- NvChad Install ---"
 git clone https://github.com/NvChad/starter ~/.config/nvim
 rm ~/.config/nvim/.git
 cd ~/dotfiles
-stow -v -t ~ nvim
+stow -v -t ~ --adopt nvim
+git restore nvim
 cd
 
 echo "--- Setup complete! ---"
