@@ -29,8 +29,10 @@ bash ~/dotfiles/setup.sh
 ```
 
 再ログイン後、nvimで以下を実行。
+```
 :Mason
 :MasonInstallAll
 :MasonInstall rust-analyzer
 :MasonInstall codelldb
+```
 
