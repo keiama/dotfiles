@@ -39,6 +39,7 @@ cd ~/dotfiles
 stow -v -t ~ --adopt nvim
 git restore nvim
 cd
+sudo apt install -y unzip
 
 echo "--- Setup complete! ---"
 echo "Please log in again."
