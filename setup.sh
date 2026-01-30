@@ -23,6 +23,7 @@ sudo install lazygit -D -t /usr/local/bin/
 rm lazygit  lazygit.tar.gz
 
 echo "--- Rust Install ---"
+sudo apt install -y build-essential
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source "$HOME/.cargo/env"
 
